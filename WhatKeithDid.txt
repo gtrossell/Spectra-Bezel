@@ -1,0 +1,13 @@
+To Get a Windows box ready for Bezel Demo
+  1.  Install Ruby
+  2.  Install GVIM
+  3.  Install Putty
+  4.  Reboot
+  5.  Install Ruby OS gem         (gem install os)
+  6.  Install Ruby bindata gem    (gem install bindata)
+  7.  Install Ruby SerialPort gem (gem install serialport)
+  8.  Install Ruby byebug gem     (gem install byebug)
+  9.  Turn Sleep off when plugged in
+
+I then modified serial_bezel_test.rb, serial_bezel.rb and bezel.rb
+from the versions in Perforce to be Demo Ready.

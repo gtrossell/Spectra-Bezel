@@ -1,0 +1,21 @@
+Demo Bezel Instructions.
+
+1.  Connect All Bezels.
+2.  Determine COM Port(s) of Bezel(s). You may get a popup on the GUI or you can look in Device Manager
+    DeviceManager-> Ports (COM & LPT)
+      USB Serial Device
+3.  Change directory to C:\Users\bezelmaster\BezelDemo
+    cd C:\Users\bezelmaster\BezelDemo
+
+4. Start Program using the "-n COMX" parameter for every Bezel you want to contact.
+   C:\Users\bezelmaster\BezelDemo>ruby serial_bezel_test.rb -n COMX -n COMY
+
+   Setting Bezel(s) Time to Current Time
+   Setting Bezel(s) to Default Purple Scroll
+   Setting up Bezel Ping
+   Setting up Bezel Sync
+
+5. Let it roll
+   Every 60 minutes it will restart the Purple scroll pattern at the beginning, so
+   if you set it to Orange Scroll, it will change.
+
